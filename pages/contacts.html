@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/contacts.js" defer></script>
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div id="main">
+      <nav class="single-nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#Anfang">Fäng deinen Tag an</a></li>
+          <li>
+            <a href="../index.html#Ende" id="endPart">Am Ende des Tages</a>
+          </li>
+
+          <li><a href="idea.html">Idea</a></li>
+          <li><a href="contacts.html">Schreib uns</a></li>
+        </ul>
+      </nav>
+      <div id="Kontaktformular" class="section">
+        <h1>Kontaktformular</h1>
+        <fieldset>
+          <legend>Schreib uns</legend>
+          <label for="themaNachricht">Wähle das Thema deiner Nachricht</label
+          ><br />
+          <select name="themaNachricht" id="themaNachricht">
+            <option>Technische Probleme</option>
+            <option>Vorschläge</option>
+            <option>Wünsche</option></select
+          ><br />
+          <label for="deineNachricht">Deine Nachricht</label><br />
+          <textarea id="deineNachricht" name="deineNachricht"></textarea>
+          <p>Möchtest du von uns Updates bekommen?</p>
+          <input type="radio" id="update_y" name="update" value="update_y" />
+          <label for="update_y">Ja</label>
+          <input type="radio" id="update_n" name="update" value="update_n" />
+          <label for="update_n">Nein</label><br />
+          <input
+            id="nachrichtSchicken"
+            type="button"
+            class="button"
+            value="Senden"
+          />
+        </fieldset>
+      </div>
+    </div>
+    <div id="footer">
+      <footer>
+        <h2>Contacts</h2>
+        <ul>
+          <li>E-Mail: example@gmail.com</li>
+          <li>Telefone: +49 100000000000</li>
+          <li>Instagram: @instaexample</li>
+          <li>Twitter: @twitterexample</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>

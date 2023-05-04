@@ -1,0 +1,31 @@
+@media screen and (min-width: 30em) {
+  nav {
+    opacity: 100%;
+    color: white;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 60%;
+    margin: auto;
+  }
+  .single-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .single-nav li {
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 0.25em;
+  }
+  .single-nav li a {
+    opacity: 100%;
+    color: #214c26;
+    /* color: white; */
+    font-size: 1.5em;
+    padding: 0.25em;
+  }
+}

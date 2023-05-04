@@ -1,0 +1,17 @@
+#footer {
+  display: flex;
+  flex: 0;
+  width: 100%;
+  justify-content: left;
+  color: black;
+  background-color: #88916c;
+  padding: 1em 0 1.5em;
+  padding-left: 1em;
+  justify-self: flex-end;
+}
+#footer h2 {
+  color: black;
+}
+footer {
+  font-size: 1em;
+}

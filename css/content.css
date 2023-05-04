@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  justify-content: left;
+  padding-top: 2em;
+  border: 0.5em;
+  border-style: ridge;
+  border-radius: 1.5em;
+  border-color: #e2d5a6;
+  background-color: #f1e5c2;
+  margin-bottom: 2em;
+}
+h1 {
+  color: #2e5432;
+  padding: 0em 2em;
+  font-size: 2em;
+  margin: 0em;
+}
+h2 {
+  color: #2e5432;
+  font-size: 1.75em;
+  text-align: center;
+}
+legend {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #2e5432;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border-color: #2e5432;
+  padding: 0.5em 1.5em;
+  margin: 0.75em 1.5em;
+  border-radius: 0.5em;
+}
+.button {
+  display: flex;
+  align-self: center;
+  justify-content: left;
+  background-color: #6e8c27;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.75em 1.5em;
+  text-align: left;
+  text-decoration: none;
+  margin: 0.25em 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+label {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #2e5432;
+  text-align: left;
+  padding: 0.25em 0em 0.25em 0.5em;
+}
+
+textarea {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  border-radius: 0.5em;
+  font-size: 1.25em;
+  margin: 0.25em 1em;
+  margin-bottom: 1em;
+}
+
+select {
+  font-size: 1.25em;
+  margin: 0.5em 2em;
+}
+strong {
+  color: red;
+}
+#listSuccess {
+  color: #2e5432;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+span {
+  color: #2e5432;
+}
+fieldset#finalForm {
+  display: flex;
+  flex-direction: column;
+}
+.section p {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #2e5432;
+  text-align: left;
+  padding: 0.25em 0em 0.25em 1em;
+  margin: 1em;
+}
+input[type="radio"] {
+  display: inline-block;
+  align-self: flex-start;
+}
